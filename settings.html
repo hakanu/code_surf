@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>CodeSurf Settings</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="shortcut icon" href="favicon.ico" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h5 id="">Settings</h5>
+
+          <form id="form-settings">
+            <div class="form-group">
+              <label for="exampleInputEmail1">Default search directory</label>
+              <input type="text" id="input-default-search-dir" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter default search directory, keep it not that big">
+              <small id="emailHelp" class="form-text text-muted">The size of this directory significantly impacts your search speed</small>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Save</button>
+          </form>
+
+        </div>
+      </div>
+    </div>
+
+    
+    <!-- You can also require other files to run in this process -->
+    <script src="jquery.min.js"></script>
+    <script src="./constants.js"></script>
+    <script src="./renderer_settings.js"></script>
+
+  </body>
+</html>

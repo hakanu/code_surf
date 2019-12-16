@@ -1,0 +1,27 @@
+{
+  "name": "code_surf",
+  "version": "1.0.0",
+  "description": "A minimal UI to run regex search in large codebases locally",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/hakanu/code_surf",
+  "keywords": [
+    "code",
+    "search",
+    "tool",
+    "ag",
+    "ack",
+    "grep"
+  ],
+  "author": "hakanu",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^7.1.4",
+    "electron-packager": "^14.1.1"
+  },
+  "dependencies": {
+    "electron-in-page-search": "^1.3.2"
+  }
+}

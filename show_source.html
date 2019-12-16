@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>CodeSurf</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <link rel="stylesheet" href="highlight.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="shortcut icon" href="favicon.ico" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h6 id="h-file-title"></h6>
+          <form id="form-search-in-file">
+            <input class="on-page-search" id="input-search-in-file"></input>
+          </form>
+          <pre id="pre-show-source"></pre>
+        </div>
+      </div>
+    </div>
+
+    
+    <!-- You can also require other files to run in this process -->
+    <!-- <script src="jquery-3.2.1.js"></script> -->
+    <script src="jquery.min.js"></script>
+    <!-- <script src="bootstrap.bundle.min.js"></script> -->
+    <!-- <script src="bootstrap.min.js"></script> -->
+
+    <script src="highlight.min.js"></script>
+
+    <script src="./constants.js"></script>
+    <script src="./renderer_show_source.js"></script>
+ </script>
+
+  </body>
+</html>

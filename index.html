@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>CodeSurf</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="shortcut icon" href="favicon.ico" />
+  </head>
+  <body>
+    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
+      <form id="form-search">
+          <input type="text" id="input-search" class="form-control"  aria-describedby="inputGroup-sizing-sm" placeholder="Type your search query and then hit enter" autocomplete="on">
+      </form>
+      <nav class="my-2 my-md-0 mr-md-3">
+        <a class="p-2 text-dark" href="#"><span id="btn-settings">⚙</span></a>
+        <a class="p-2 text-dark" href="#"><span id="btn-about">?</span></a>
+      </nav>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p><sub>Using search dir: </sub><sub id="sub-default-search-dir"></sub></p>
+          <p>
+            <sub id="span-stats"></sub>&nbsp;
+            <sub id="span-status"></sub>&nbsp;
+            <sub id="span-searching">searching...</sub>
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <div id="output"></div>
+          <hr>
+          <p id="error-output"></p>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- You can also require other files to run in this process -->
+    <!-- <script src="jquery-3.2.1.js"></script> -->
+    <script src="jquery.min.js"></script>
+    <!-- <script src="bootstrap.bundle.min.js"></script> -->
+    <!-- <script src="bootstrap.min.js"></script> -->
+    <script src="./constants.js"></script>
+    <script src="./renderer.js"></script>
+  </body>
+</html>

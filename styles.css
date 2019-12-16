@@ -1,0 +1,16 @@
+/*body {
+  text-align: center;
+}*/
+
+form {
+  width: 80%;
+}
+
+#span-searching {
+    visibility: hidden;
+}
+
+.a-line {
+  color: black;
+  font-family: "Lucida Console";
+}
