@@ -6,7 +6,7 @@ Although I love using ag from command line, I seek to have a UI with some tangib
 
 ## Install
 
-* Download CodeSurf's latest release from [releases page]().
+* Download CodeSurf's latest release from [releases page](https://github.com/hakanu/code_surf/releases).
 * Install  Silver searcher from [its own docs](https://github.com/ggreer/the_silver_searcher/blob/master/README.md)
 
 ## features
@@ -28,9 +28,9 @@ npm install
 npm start
 ```
 
-## TODOs
+## Roadmap 
 
-* Un-render in show source code file.
+* ~~Un-render in show source code file.~~
 * jump with ctrl + g in the show source code window. 
 * Add support to different search backends like ripgrep, ack, grep etc.
 * Make windows installer
@@ -42,9 +42,9 @@ npm start
     * Something better: fuzzy search for file names too.
   * lang:py => Search only python files
 * Add ids and class names into constants.
-* Open from editor directly.
-* Add stats.
-* Check if binaries are installed, if not warn them.
+* ~~Open from editor directly.~~
+* ~~Add stats.~~
+* ~~Check if binaries are installed, if not warn them.~~
 * Show binary selection under the search bar.
 * Show case sensitivity under the search bar.
 * Add ignore patterns into settings to add into path-to-ignore.
