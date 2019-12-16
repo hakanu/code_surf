@@ -22,6 +22,12 @@ Although I love using ag from command line, I seek to have a UI with some tangib
 Made this in some afternoon sitting so don't judge me:P Still learning electron.
 The code is based on pure js + a little bit jquery + bootstrap4 styles and lots of rooms for improvements.
 
+```shell
+npm install
+
+npm start
+```
+
 ## TODOs
 
 * Un-render in show source code file.
