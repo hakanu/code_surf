@@ -23,6 +23,7 @@ Although I love using ag from command line, I seek to have a UI with some tangib
 ![](speed.png)
 
 * Keyboard first navigation
+* Respects .gitignore and .hgignore files as ag does.
 * Clean UI
 * All private, no internet access is needed.
 * Keyboard shortcuts to bring it to focus whenever needed (ctrl + shift + J)
@@ -73,4 +74,6 @@ Shoot it to hi[at]hakanu.com or open an issue.
 ## Contribute
 
 Feel free to send a pull request.
+
+
 

@@ -6,7 +6,7 @@ const path = require('path')
 // be closed automatically when the JavaScript object is garbage collected.
 let mainWindow
 let isShown = false;
-let iconPath = 'img/logo.png';
+let iconPath = path.join(__dirname, 'img/logo.png');
 
 function createWindow () {
   // Create the browser window.
