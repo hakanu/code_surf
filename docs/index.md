@@ -11,11 +11,26 @@ Although I love using ag from command line, I seek to have a UI with some tangib
 
 ## Features
 
+* Fast, really fast search (thanks to ag)
+  * Whole linux kernel files (3.7GB) are searched in mere 44 seconds in my 
+  machine which is probably not a good benchmark but I scan the spinning disk
+  with i5 8th gen with 32GB memory.
+
+![](linux_kernel_files.png)
+
+![](speed.png)
+
 * Keyboard first navigation
 * Clean UI
 * All private, no internet access is needed.
 * Keyboard shortcuts to bring it to focus whenever needed (ctrl + shift + J)
 * Small memory footprint
+
+![](memory.png)
+
+![](quick_usage.gif)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bAuW-iKSVU0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Dev notes
 
