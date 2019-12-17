@@ -12,9 +12,11 @@ Although I love using ag from command line, I seek to have a UI with some tangib
 ## Features
 
 * Fast, really fast search (thanks to ag)
-  * Whole linux kernel files (3.7GB) are searched in mere 44 seconds in my 
+  * Whole linux kernel files (3.7GB) are searched in mere 12 seconds
+  (with 10 letter search query) in my 
   machine which is probably not a good benchmark but I scan the spinning disk
   with i5 8th gen with 32GB memory.
+  * Since it does regexp match, the length of search query is important.
 
 ![](linux_kernel_files.png)
 
@@ -28,7 +30,7 @@ Although I love using ag from command line, I seek to have a UI with some tangib
 
 ![](memory.png)
 
-![](quick_usage.gif)
+![](quick_usage_zoomed_in.gif)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bAuW-iKSVU0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
