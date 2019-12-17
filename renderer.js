@@ -105,3 +105,12 @@ var searchDirFromSettings = window.localStorage.getItem(
     _KEY_SETTINGS_DEFAULT_SEARCH_DIR);
 document.getElementById('sub-default-search-dir').textContent = (
     searchDirFromSettings ? searchDirFromSettings  : _DEFAULT_SEARCH_DIR);
+
+// Collect stats if enabled.
+if (window.localStorage.getItem(
+    _KEY_SETTINGS_ANALYTICS_ENABLED)) {
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-154680842-1');
+}

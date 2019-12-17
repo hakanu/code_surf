@@ -1,1 +1,5 @@
+title: 'Code Search UI'
+description: 'ag backed code search UI with electron for fast snippet regex match search'
 theme: jekyll-theme-tactile
+show_downloads: true
+google_analytics: 'UA-154680842-2'
